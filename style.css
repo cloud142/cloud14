@@ -1,0 +1,106 @@
+.forside-banner {
+width: 100%;
+height: calc(25vh - 100px);
+background-color: #111111;
+background-repeat:no-repeat;
+ background-position: top;
+ background-size: cover;
+ flex-grow: 1;
+ padding: 120px 1rem;
+ top: 0px;
+ left: 0px;
+ right: 0px;
+ display: table;
+
+}
+body {
+  background-color: #111111;
+  }
+.forside-banner h1 {
+color: #F2F2F2;
+font-family: "Press Start 2P";
+font-size: 50px;
+text-align: center;
+padding: 10px;
+
+}
+.forside-banner h3 {
+color: #F2F2F2;
+font-family: "Plus Jakarta Sans";
+font-size: 25px;
+text-align: center;
+line-height: 43px;
+padding: 0px 35px;
+margin: 0 35px;
+word-spacing: 3px;
+}
+
+.pict img{
+    width: calc(25vh - 100px);
+    margin:-90px auto;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.center {
+display: table-cell;
+vertical-align: top;
+}
+
+button {
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.monke {
+  text-align: center;
+  margin: -90px 100px 0px;
+}
+
+
+.bt1 {
+  width: 300px;
+  height: 100px;
+  color: #F2F2F2;
+  font-family: "Plus Jakarta Sans";
+  border-radius: 10px;
+  background-color:#111111;
+  border-color: #EE85B5;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  align-items: center;
+
+}
+.bt1:hover {
+  background-color: #EE85B5;
+  color: #111111;
+}
+
+@media only screen and (min-width: 990px) {
+  .forside-banner h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+    }
+
+  .forside-banner h3 {
+  font-size: 25px;
+  text-align: center;
+  line-height: 43px;
+  padding: 30px;
+    }
+    .monke {
+      text-align: center;
+      margin: -90px 100px 0px;
+    }
+    .pict img{
+      width: calc(40vh - 100px);
+      margin:-90px auto;
+        border-radius: 20px;
+        display: block;
+    }
+
+}
