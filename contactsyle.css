@@ -1,0 +1,100 @@
+body {
+background-color: #111111;
+}
+
+.forside-banner {
+width: 100%;
+height: calc(20vh - 100px);
+background-color: #332936;
+background-repeat:no-repeat;
+ background-position: top;
+ background-size: cover;
+ flex-grow: 1;
+ padding: 120px 1rem;
+ top: 0px;
+ left: 0px;
+ right: 0px;
+ display: table;
+ box-shadow: 0 10px 100px black;
+ text-align: center;
+}
+
+
+.forside-banner h1{
+color: #fefefefe;
+font-family: "Press Start 2P";
+font-size: 50px;
+text-align: center;
+padding: 50px;
+margin: 50px 150px 50px;
+}
+
+img {
+height: 200px;
+width: 200px;
+margin: -60px;
+
+}
+
+.anni {
+text-align: center;
+
+}
+.sprite {
+  width:100mm;
+  height:100px;
+  background: url(among.png) 0 0 no-repeat;
+  animation: play 2s steps(10) infinite;
+  margin: auto;
+
+}
+@keyframes play {
+  0%{background-position:0px;}
+  100% { background-position: -5000px; }
+  }
+
+
+
+.mail {
+margin: 30px 15px 50px;
+width: calc(100% - 32px);
+height: 300px;
+background-color:#332936;
+border-radius: 20px;
+box-shadow: 10px 10px 100px #111111;
+
+}
+
+.mail p {
+  color: #F2F2F2;
+  font-family: "Plus Jakarta Sans";
+  font-size: 23px;
+  text-align: center;
+  line-height: 50px;
+  word-spacing: 3px;
+}
+.mail h2 {
+  color: #F2F2F2;
+  font-family: "Plus Jakarta Sans";
+  font-size: 23px;
+  text-align: center;
+  line-height: 50px;
+  word-spacing: 3px;
+}
+
+@media only screen and (min-width: 990px) {
+  .forside-banner {
+height: calc(40vh - 100px);
+}
+.sprite {
+  width:400mm;
+  }
+
+    .mail h4 {
+  margin: 40px 150px 50px;
+    }
+    .mail p {
+  word-spacing: 3px;
+        margin: 50px 150px 50px;
+        }
+}
